@@ -1,12 +1,11 @@
 {
-    "name": "glennpratt/drupal-composer-repo",
-    "description": "Repository of projects supporting composer on Drupal.org.",
+    "name": "glennpratt/drupal-satis",
+    "description": "Extends Satis to crawl drupal.org for composer projects.",
     "license": "MIT",
     "require": {
         "composer/composer": "1.0.x-dev",
         "composer/satis": "dev-master",
-        "fabpot/goutte": "1.0.x-dev",
-        "monolog/monolog": ">=1.0.0"
+        "fabpot/goutte": "1.0.x-dev"
     },
     "autoload": {
         "psr-0": {
@@ -14,6 +13,6 @@
         }
     },
     "bin": [
-        "bin/doit"
+        "bin/drupal-satis"
     ]
 }
