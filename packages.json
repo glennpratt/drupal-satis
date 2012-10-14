@@ -1,0 +1,451 @@
+{
+    "packages": {
+        "drupal/commerce_jetpay": {
+            "dev-7.x-1.x": {
+                "name": "drupal/commerce_jetpay",
+                "version": "dev-7.x-1.x",
+                "version_normalized": "dev-7.x-1.x",
+                "source": {
+                    "type": "git",
+                    "url": "http://git.drupal.org/sandbox/glennpratt/1529848.git",
+                    "reference": "b6b9178395311f5f686d88cb6b35f815ba99cdfa"
+                },
+                "require": {
+                    "allplayers/jetpay": "dev-drupal_commerce#1acc171dae494cb31233b8c7b5475d27400bce7f"
+                },
+                "time": "2012-08-30 16:32:50",
+                "type": "drupal-module",
+                "license": [
+                    "GPL-2.0"
+                ],
+                "description": "A Drupal Commerce payment gateway implementation for JetPay."
+            },
+            "dev-jetdirect": {
+                "name": "drupal/commerce_jetpay",
+                "version": "dev-jetdirect",
+                "version_normalized": "dev-jetdirect",
+                "source": {
+                    "type": "git",
+                    "url": "http://git.drupal.org/sandbox/glennpratt/1529848.git",
+                    "reference": "b18f1561d9882a5525265b7c26b12c9231698e57"
+                },
+                "require": {
+                    "allplayers/jetpay": "dev-drupal_commerce#1acc171dae494cb31233b8c7b5475d27400bce7f"
+                },
+                "time": "2012-09-07 15:18:06",
+                "type": "drupal-module",
+                "license": [
+                    "GPL-2.0"
+                ],
+                "description": "A Drupal Commerce payment gateway implementation for JetPay."
+            },
+            "dev-jetpay_xml": {
+                "name": "drupal/commerce_jetpay",
+                "version": "dev-jetpay_xml",
+                "version_normalized": "dev-jetpay_xml",
+                "source": {
+                    "type": "git",
+                    "url": "http://git.drupal.org/sandbox/glennpratt/1529848.git",
+                    "reference": "b6b9178395311f5f686d88cb6b35f815ba99cdfa"
+                },
+                "require": {
+                    "allplayers/jetpay": "dev-drupal_commerce#1acc171dae494cb31233b8c7b5475d27400bce7f"
+                },
+                "time": "2012-08-30 16:32:50",
+                "type": "drupal-module",
+                "license": [
+                    "GPL-2.0"
+                ],
+                "description": "A Drupal Commerce payment gateway implementation for JetPay."
+            }
+        },
+        "drupal/commerce_product_expiration": {
+            "dev-7.x-1.x": {
+                "name": "drupal/commerce_product_expiration",
+                "version": "dev-7.x-1.x",
+                "version_normalized": "dev-7.x-1.x",
+                "source": {
+                    "type": "git",
+                    "url": "http://git.drupal.org/sandbox/glennpratt/1790820.git",
+                    "reference": "02e51ef5cbce3d8a20756df21933497a34800e69"
+                },
+                "time": "2012-09-20 22:14:25",
+                "type": "drupal-module",
+                "license": [
+                    "GPL-2.0"
+                ],
+                "description": "Track the expiration of product purchases."
+            }
+        },
+        "drupal/gelf": {
+            "dev-7.x-1.x": {
+                "name": "drupal/gelf",
+                "version": "dev-7.x-1.x",
+                "version_normalized": "dev-7.x-1.x",
+                "source": {
+                    "type": "git",
+                    "url": "http://git.drupal.org/project/gelf.git",
+                    "reference": "c07d5ddb332abf987aaf5d4e588a2d714b5e00ef"
+                },
+                "require": {
+                    "graylog2/gelf-php": "dev-master"
+                },
+                "time": "2012-10-01 12:57:17",
+                "type": "drupal-module",
+                "license": [
+                    "GPL-2.0"
+                ],
+                "description": "This module allows you to send watchdog messages to Graylog2 using the GELF format."
+            },
+            "dev-bootstrap-fixes": {
+                "name": "drupal/gelf",
+                "version": "dev-bootstrap-fixes",
+                "version_normalized": "dev-bootstrap-fixes",
+                "source": {
+                    "type": "git",
+                    "url": "http://git.drupal.org/sandbox/glennpratt/1799938.git",
+                    "reference": "c07d5ddb332abf987aaf5d4e588a2d714b5e00ef"
+                },
+                "require": {
+                    "graylog2/gelf-php": "dev-master"
+                },
+                "time": "2012-10-01 12:57:17",
+                "type": "drupal-module",
+                "license": [
+                    "GPL-2.0"
+                ],
+                "description": "This module allows you to send watchdog messages to Graylog2 using the GELF format."
+            }
+        },
+        "drupal/guzzle": {
+            "dev-master": {
+                "name": "drupal/guzzle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "http://git.drupal.org/sandbox/kimpepper/1723292.git",
+                    "reference": "758860bdb0782aa6ec766655ba48b056c011bb59"
+                },
+                "require": {
+                    "guzzle/guzzle": "2.*"
+                },
+                "time": "2012-08-11 08:06:01",
+                "type": "drupal-module",
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Kim Pepper",
+                        "homepage": "http://previousnext.com.au"
+                    }
+                ],
+                "description": "Provides the Guzzle HTTP client library"
+            }
+        },
+        "drupal/less": {
+            "dev-7.x-2.x": {
+                "name": "drupal/less",
+                "version": "dev-7.x-2.x",
+                "version_normalized": "dev-7.x-2.x",
+                "source": {
+                    "type": "git",
+                    "url": "http://git.drupal.org/project/less.git",
+                    "reference": "56aea2d421c2a418062dc0eaf4d72b86213fc729"
+                },
+                "require": {
+                    "leafo/lessphp": ">=0.3.7"
+                },
+                "time": "2012-10-03 21:36:09",
+                "type": "drupal-module",
+                "license": [
+                    "GPL-2.0"
+                ],
+                "description": "Automatically process any LESS files that are added using drupal_add_css or added through your theme's .info file."
+            },
+            "dev-7.x-3.x": {
+                "name": "drupal/less",
+                "version": "dev-7.x-3.x",
+                "version_normalized": "dev-7.x-3.x",
+                "source": {
+                    "type": "git",
+                    "url": "http://git.drupal.org/project/less.git",
+                    "reference": "56aea2d421c2a418062dc0eaf4d72b86213fc729"
+                },
+                "require": {
+                    "leafo/lessphp": ">=0.3.7"
+                },
+                "time": "2012-10-03 21:36:09",
+                "type": "drupal-module",
+                "license": [
+                    "GPL-2.0"
+                ],
+                "description": "Automatically process any LESS files that are added using drupal_add_css or added through your theme's .info file."
+            }
+        },
+        "drupal/pifr_conduit": {
+            "dev-7.x-1.x": {
+                "name": "drupal/pifr_conduit",
+                "version": "dev-7.x-1.x",
+                "version_normalized": "dev-7.x-1.x",
+                "source": {
+                    "type": "git",
+                    "url": "http://git.drupal.org/sandbox/boombatower/1799204.git",
+                    "reference": "5868b0d88409157b61013d541e14d4a7d4cfad22"
+                },
+                "require": {
+                    "php": ">=5.3",
+                    "guzzle/guzzle": "*"
+                },
+                "time": "2012-09-30 08:53:07",
+                "type": "drupal-module",
+                "autoload": {
+                    "psr-0": {
+                        "Drupal\\PIFRConduit": "lib/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Jimmy Berry",
+                        "email": "jimmy@boombatower.com",
+                        "homepage": "http://drupal.org/user/214218"
+                    }
+                ],
+                "description": "...",
+                "homepage": "http://drupal.org/project/pifr_conduit",
+                "keywords": [
+                    "..."
+                ],
+                "support": {
+                    "issues": "http://drupal.org/project/issues/pifr_conduit",
+                    "source": "http://drupalcode.org/project/pifr_conduit.git"
+                }
+            }
+        },
+        "drupal/qtip_library": {
+            "dev-7.x-1.x": {
+                "name": "drupal/qtip_library",
+                "version": "dev-7.x-1.x",
+                "version_normalized": "dev-7.x-1.x",
+                "source": {
+                    "type": "git",
+                    "url": "http://git.drupal.org/project/qtip_library.git",
+                    "reference": "f6c480e602b268949d23b7874733f3e711bbd98d"
+                },
+                "require": {
+                    "craga89/qtip2": "*"
+                },
+                "time": "2012-09-12 14:22:48",
+                "type": "drupal-module",
+                "license": [
+                    "GPL-2.0"
+                ],
+                "description": "Provides a libraries (2.x) interface for the qTip2 javascript library."
+            }
+        },
+        "drupal/scssphp": {
+            "dev-master": {
+                "name": "drupal/scssphp",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "http://git.drupal.org/project/scssphp.git",
+                    "reference": "fd20aab6460e526e7f27f53253c1e4443b30f1a3"
+                },
+                "require": {
+                    "composer/installers": "*",
+                    "leafo/scssphp": "0.0.*"
+                },
+                "time": "2012-10-03 19:19:48",
+                "type": "drupal-module",
+                "license": [
+                    "GPL-2.0"
+                ],
+                "description": "Compile SCSS into CSS, allowing features like variables, mixins, imports, color manipulation, functions, and many others."
+            },
+            "dev-7.x-1.x": {
+                "name": "drupal/scssphp",
+                "version": "dev-7.x-1.x",
+                "version_normalized": "dev-7.x-1.x",
+                "source": {
+                    "type": "git",
+                    "url": "http://git.drupal.org/project/scssphp.git",
+                    "reference": "fd20aab6460e526e7f27f53253c1e4443b30f1a3"
+                },
+                "require": {
+                    "composer/installers": "*",
+                    "leafo/scssphp": "0.0.*"
+                },
+                "time": "2012-10-03 19:19:48",
+                "type": "drupal-module",
+                "license": [
+                    "GPL-2.0"
+                ],
+                "description": "Compile SCSS into CSS, allowing features like variables, mixins, imports, color manipulation, functions, and many others."
+            }
+        },
+        "drupal/symfony": {
+            "7.2.0-alpha2": {
+                "name": "drupal/symfony",
+                "version": "7.2.0-alpha2",
+                "version_normalized": "7.2.0.0-alpha2",
+                "source": {
+                    "type": "git",
+                    "url": "http://git.drupal.org/project/symfony.git",
+                    "reference": "7.2.0-alpha2"
+                },
+                "require": {
+                    "drupal/composer-installer": "*",
+                    "symfony/symfony": "2.1.*"
+                },
+                "time": "2012-05-25 00:16:53",
+                "type": "drupal-module",
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Loach",
+                        "homepage": "http://robloach.net"
+                    }
+                ],
+                "description": "Ensures that Symfony is available on your Drupal website."
+            },
+            "dev-7.x-1.x": {
+                "name": "drupal/symfony",
+                "version": "dev-7.x-1.x",
+                "version_normalized": "dev-7.x-1.x",
+                "target-dir": "modules/symfony",
+                "source": {
+                    "type": "git",
+                    "url": "http://git.drupal.org/project/symfony.git",
+                    "reference": "c6af7e7ebf9c79ca2624ac18137e3c6fa76033ee"
+                },
+                "require": {
+                    "php": ">=5.3.2",
+                    "symfony/symfony": "2.1.*"
+                },
+                "time": "2012-01-30 19:31:45",
+                "type": "module",
+                "license": [
+                    "GPL"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Loach",
+                        "homepage": "http://robloach.net"
+                    }
+                ],
+                "description": "Registers the Symfony PHP Framework as a Library to have a status report to ensure its availability.",
+                "homepage": "http://drupal.org",
+                "keywords": [
+                    "drupal"
+                ]
+            },
+            "dev-7.x-2.x": {
+                "name": "drupal/symfony",
+                "version": "dev-7.x-2.x",
+                "version_normalized": "dev-7.x-2.x",
+                "source": {
+                    "type": "git",
+                    "url": "http://git.drupal.org/project/symfony.git",
+                    "reference": "ef52ae6a4aab709e6b1d7ff22e6617344b4c21c3"
+                },
+                "require": {
+                    "symfony/symfony": "2.1.*"
+                },
+                "time": "2012-07-06 12:56:10",
+                "type": "drupal-module",
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Loach",
+                        "homepage": "http://robloach.net"
+                    }
+                ],
+                "description": "Ensures that Symfony is available on your Drupal website."
+            }
+        },
+        "drupal/zend": {
+            "dev-6.x-3.x": {
+                "name": "drupal/zend",
+                "version": "dev-6.x-3.x",
+                "version_normalized": "dev-6.x-3.x",
+                "source": {
+                    "type": "git",
+                    "url": "http://git.drupal.org/project/zend.git",
+                    "reference": "93a36be7e33f6c65fbb6e80f22b610b0ea6f79ed"
+                },
+                "require": {
+                    "zendframework/zendframework": "2.*"
+                },
+                "time": "2012-07-03 21:44:49",
+                "type": "drupal-module",
+                "license": [
+                    "GPL-2.0"
+                ],
+                "description": "The Zend Framework module is a Drupal API module that makes the framework accessible to other Drupal modules."
+            },
+            "dev-7.x-3.x": {
+                "name": "drupal/zend",
+                "version": "dev-7.x-3.x",
+                "version_normalized": "dev-7.x-3.x",
+                "source": {
+                    "type": "git",
+                    "url": "http://git.drupal.org/project/zend.git",
+                    "reference": "d94db2d338cb613ac3697928c851a99384dcc610"
+                },
+                "require": {
+                    "zendframework/zendframework": "2.*"
+                },
+                "time": "2012-07-03 21:41:59",
+                "type": "drupal-module",
+                "license": [
+                    "GPL-2.0"
+                ],
+                "description": "The Zend Framework module is a Drupal API module that makes the framework accessible to other Drupal modules."
+            }
+        },
+        "HPCloud/HPCloud-drupal-module": {
+            "dev-master": {
+                "name": "HPCloud/HPCloud-drupal-module",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "http://git.drupal.org/project/hpcloud.git",
+                    "reference": "b435b2a3cd89cf00852e56021c2942786eed3188"
+                },
+                "require": {
+                    "hpcloud/hpcloud-php": ">=0.0.9"
+                },
+                "time": "2012-08-07 19:51:13",
+                "type": "library",
+                "description": "The HPCloud Drupal module."
+            },
+            "dev-7.x-1.x": {
+                "name": "HPCloud/HPCloud-drupal-module",
+                "version": "dev-7.x-1.x",
+                "version_normalized": "dev-7.x-1.x",
+                "source": {
+                    "type": "git",
+                    "url": "http://git.drupal.org/project/hpcloud.git",
+                    "reference": "b435b2a3cd89cf00852e56021c2942786eed3188"
+                },
+                "require": {
+                    "hpcloud/hpcloud-php": ">=0.0.9"
+                },
+                "time": "2012-08-07 19:51:13",
+                "type": "library",
+                "description": "The HPCloud Drupal module."
+            }
+        }
+    }
+}
